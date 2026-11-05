@@ -1,0 +1,23 @@
+{
+  "name": "liberusoftware/sap-data-and-intelligence-filament",
+  "description": "Data and intelligence Filament presentation module skeleton",
+  "type": "liberu-module",
+  "license": "MIT",
+  "require": {
+    "php": "^8.5",
+    "filament/filament": "^5.11"
+  },
+  "autoload": {
+    "psr-4": {
+      "Liberu\\Presentation\\Capability75d8f4cc1070\\": "src/"
+    }
+  },
+  "scripts": {
+    "check": "@php -l src/CapabilityPlugin.php"
+  },
+  "extra": {
+    "liberu": {
+      "name": "sap-data-and-intelligence-filament"
+    }
+  }
+}
